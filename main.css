@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 img {
   max-width: 400px;
 }
@@ -5,4 +9,29 @@ img {
 .red_outline {
   border: 1px solid red;
   padding: 1px 3px 5px 4px;
+  background-color: azure;
+  margin: 10px 10px;
+}
+
+#article1 section {
+  color:blue;
+}
+
+a {
+  text-decoration: none;
+  color: firebrick;
+}
+
+a:hover {
+  text-decoration: underline;
+  padding: 10px 10px;
+}
+
+a:active{
+  color:yellow;
+}
+
+a:visited{
+  color:black
+  text-decoration: blink;
 }
