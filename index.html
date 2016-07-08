@@ -5,13 +5,68 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+    <div>
+      <fieldset>
+        <form action="">
+        <label class="hidden" for="firstname">First Name</label>
+        <input type="text" name="firstname" required placeholder="First Name" id="firstname">
+
+        <label class="hidden" for="email">Email</label>
+        <input type="email" name="Email" required placeholder="foo@bar.com" id="email"> 
+
+        <label class="hidden" for="Age">Age</label>
+        <input type="number" name="Age" min="18" max="120" required placeholder="28" id="age">
+      </fieldset>
+
+        <label class="hidden" for="bio">Bio</label>
+        <textarea placeholder="A little about yourself" id="bio"></textarea>
+
+        <label class="hidden" for="favcolor">Favorite Color</label>
+        <input type="color" value="#438756" name="favcolor" id="favcolor">
+
+        <label class="hidden" for="website">Webstie</label>
+        <input class="min-input" type="url" name="website" id="website" placeholder="website" required>
+
+        <label class="hidden" for="country">Country</label>
+        <input type="text" name="country" value="USA">
+
+        <fieldset>
+        <label for="peanuts">Peanuts</label>
+          <input type="checkbox" value="peanuts" id="peanuts" name="peanuts">
+
+        <label for="shellfish">Shellfish</label>
+          <input type="checkbox" value="shellfish" id= "shellfish" name="shellfish">
+
+        <label for="soy">Soy</label>
+          <input type="checkbox" value="soy" id= "soy" name="soy">
+
+        <label for="kiwis">Kiwis</label>
+          <input type="checkbox" value="kiwis" id= "kiwis" name="kiwis">
+
+        </fieldset>
+        <input type="submit" value="Submit" name="submit">
+
+        <fieldset>
+          <label for="red">Red</label>
+          <input type="radio" checked required value="red" name="rgb" id="red"> 
+
+          <label for="green">Green</label>
+          <input type="radio" required name="rgb" value="green" id="green">          
+
+          <label for="blue">Blue</label>
+          <input type="radio" required name="rgb" value="blue" id="blue">
+
+        </fieldset>
+      
+      </form>
+    </div>
   <header>
     <h1>Kao Jai Coffee</h1>
   </header>
     <article id="article1">
       <header>
         <h2>
-        <marquee>How are coffee beans processed?</marquee> 
+        How are coffee beans processed? 
         </h2>
       </header>
        <img src="http://static1.squarespace.com/static/529f3a60e4b00096a05dd069/t/5362d97ae4b0c6561be3662e/1393759087630/Kao+Jai+Coffee?format=750w">

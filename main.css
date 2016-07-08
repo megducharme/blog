@@ -2,8 +2,21 @@
   box-sizing: border-box;
 }
 
+div{
+  margin-top: 15px;
+}
+
+.hidden{
+  display:none;
+}
+
+.min-input{
+  min-width:500px;
+}
+
 img {
   max-width: 400px;
+  margin-top: 20px;
 }
 
 .red_outline {
@@ -35,3 +48,4 @@ a:visited{
   color:black
   text-decoration: blink;
 }
+
